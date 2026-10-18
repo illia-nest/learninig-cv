@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 lesson_12/data
+lesson_13/data
 
 # Virtual environments
 .venv
