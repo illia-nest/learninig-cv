@@ -7,13 +7,17 @@ requires-python = ">=3.13"
 dependencies = [
     "cmake>=4.4.4",
     "dlib-bin>=20.0.1.post1",
+    "graphviz>=0.21",
     "ipykernel>=7.3.0",
     "jupyterlab>=4.6.3",
+    "keras>=3.15.1",
     "matplotlib>=3.11.1",
     "numpy>=2.5.2",
     "opencv-contrib-python>=5.0.0.93",
     "pillow>=12.3.0",
+    "pydot>=4.0.1",
     "scikit-image>=0.26.0",
     "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
     "wheel>=0.48.0",
 ]
