@@ -3,7 +3,7 @@ name = "cv"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.13.*"
 dependencies = [
     "cmake>=4.4.4",
     "dlib-bin>=20.0.1.post1",
@@ -20,5 +20,14 @@ dependencies = [
     "scikit-image>=0.26.0",
     "scikit-learn>=1.9.1",
     "torch>=2.14.1",
+    "torchvision>=0.29.1",
     "wheel>=0.48.0",
 ]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
